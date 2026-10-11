@@ -2,20 +2,20 @@
 
 GitHub Pages에서 제공하는 앱 소개와 개인정보처리방침입니다.
 
-- 현재 공개 홈페이지: https://sall-project.github.io/sall-dashboard-site/
-- 현재 공개 개인정보처리방침: https://sall-project.github.io/sall-dashboard-site/privacy.html
-- 연결할 도메인: https://dashboard.econsurge.com/
+- 홈페이지: https://dashboard.econsurge.com/
+- 개인정보처리방침: https://dashboard.econsurge.com/privacy.html
+- 공개 저장소: https://github.com/sall-project/sall-dashboard-site
 - 문의: keinpark1@gmail.com
 
 ## 구성
 
-`index.html`, `privacy.html`, `styles.css`, `favicon.svg`만으로 동작합니다. 빌드, JavaScript, 데이터베이스, 로그인, 런타임 패키지가 필요하지 않습니다. `.nojekyll`은 GitHub Pages의 정적 파일 제공을 설정합니다.
+`index.html`, `privacy.html`, `styles.css`, `favicon.svg`만으로 동작합니다. 빌드, JavaScript, 데이터베이스, 로그인, 런타임 패키지가 필요하지 않습니다. `.nojekyll`은 GitHub Pages의 정적 파일 제공을 설정하고, `CNAME`은 사용자 지정 도메인을 유지합니다.
 
 ## 배포
 
-GitHub 저장소의 Settings → Pages에서 `main` 브랜치의 `/ (root)`를 게시 대상으로 선택합니다. DNS와 도메인 소유권을 확인한 뒤 Custom domain에 `dashboard.econsurge.com`을 설정하고 HTTPS를 활성화합니다.
+GitHub 저장소의 Settings → Pages에서 `main` 브랜치의 `/ (root)`가 게시 대상으로 설정되어 있습니다. Custom domain은 `dashboard.econsurge.com`입니다. GitHub의 인증서 발급이 완료되면 Enforce HTTPS를 활성화합니다.
 
-Cloudflare에는 다음 레코드를 추가합니다. 기존 블로그 DNS 레코드는 수정하지 않습니다.
+Cloudflare에 다음 레코드가 설정되어 있습니다.
 
 | 항목   | 값                     |
 | ------ | ---------------------- |
@@ -25,7 +25,7 @@ Cloudflare에는 다음 레코드를 추가합니다. 기존 블로그 DNS 레�
 | 프록시 | DNS only               |
 | TTL    | Auto                   |
 
-`econsurge.com`의 Search Console 도메인 소유권 인증은 2026년 10월 11일 `keinpark1@gmail.com` 계정으로 완료했습니다. Google 브랜드 인증에는 도메인 연결이 완료된 후 `https://dashboard.econsurge.com/`, `https://dashboard.econsurge.com/privacy.html`과 승인된 도메인 `econsurge.com`을 등록합니다.
+`econsurge.com`의 Search Console 도메인 소유권 인증은 2026년 10월 11일 `keinpark1@gmail.com` 계정으로 완료했습니다. Google Cloud의 `sall-dashboard` 프로젝트 브랜드 설정에는 위 홈페이지와 개인정보처리방침 링크, 승인된 도메인 `econsurge.com`을 등록했습니다. 설정 저장과 Google의 브랜드 인증 승인은 별도 절차입니다.
 
 ## 수정
 
