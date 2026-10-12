@@ -13,7 +13,7 @@ GitHub Pages에서 제공하는 앱 소개와 개인정보처리방침입니다.
 
 ## 배포
 
-GitHub 저장소의 Settings → Pages에서 `main` 브랜치의 `/ (root)`가 게시 대상으로 설정되어 있습니다. Custom domain은 `dashboard.econsurge.com`입니다. GitHub의 인증서 발급이 완료되면 Enforce HTTPS를 활성화합니다.
+GitHub 저장소의 Settings → Pages에서 `main` 브랜치의 `/ (root)`가 게시 대상으로 설정되어 있습니다. Custom domain은 `dashboard.econsurge.com`입니다. HTTPS 인증서가 발급되어 Enforce HTTPS를 활성화했습니다. HTTP 요청은 HTTPS로 자동 전환됩니다.
 
 Cloudflare에 다음 레코드가 설정되어 있습니다.
 
