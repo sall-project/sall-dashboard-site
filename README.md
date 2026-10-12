@@ -25,7 +25,7 @@ Cloudflare에 다음 레코드가 설정되어 있습니다.
 | 프록시 | DNS only               |
 | TTL    | Auto                   |
 
-`econsurge.com`의 Search Console 도메인 소유권 인증은 2026년 10월 11일 `keinpark1@gmail.com` 계정으로 완료했습니다. Google Cloud의 `sall-dashboard` 프로젝트 브랜드 설정에는 위 홈페이지와 개인정보처리방침 링크, 승인된 도메인 `econsurge.com`을 등록했습니다. 설정 저장과 Google의 브랜드 인증 승인은 별도 절차입니다.
+`econsurge.com`의 Search Console 도메인 소유권 인증은 2026년 10월 11일 `keinpark1@gmail.com` 계정으로 완료했습니다. Google Cloud의 `sall-dashboard` 프로젝트 브랜드 설정에는 위 홈페이지와 개인정보처리방침 링크, 승인된 도메인 `econsurge.com`을 등록했습니다. Google 브랜드 인증과 게시를 완료했습니다. Google Ads API의 Basic Access 승인은 별도 절차입니다.
 
 ## 수정
 
